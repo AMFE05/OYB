@@ -1,0 +1,25 @@
+.titulos{
+    margin-left: 10cm;
+}
+
+.img{
+    width: 320px;
+    height: 400px;
+}
+#titulo{
+    margin-left: 325px;
+}
+
+#Tamaño{
+font-size: 17px;
+text-align: justify;
+}
+
+.Carta{
+    
+    width: 72.5%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+}
+

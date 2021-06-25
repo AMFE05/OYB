@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <link rel="shortcut icon" type="image/x-icon" href="../Recursos/LOGOOYB.ico"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="../BootStrap/css/bootstrap.rtl.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' >
+    <title>Open Your Book</title>
+
+</head>    
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light" style= "background-color:#FCB9AA">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../Index.html" img>
+             <span class="text-light fs-5 fw-bold"> 
+               <img src="../Recursos/OYBlogo.png" id="Logo"alt="Logo OYB" width="45" height="45" class="d-inline-block"> Open Your Book </span> 
+          </a>
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+              <li class="nav-item">
+                <a class="nav-link active fw-bold rounded" aria-current="page" href="../Index.html">
+                  Inicio
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link active fw-bold rounded" href="../Proyecto final/index.html" id="navbarDropdown" aria-expanded="false">Géneros </a>
+              </li>
+    
+                   
+              <li class="nav-item">
+                <a class="nav-link active fw-bold rounded" href="../Sobre nosotros/index.html">Sobre Nosotros</a>
+              </li>
+            </ul>
+    
+            <form class="d-flex">
+              <input class="form-control btn-outline-light mr-3 me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn" aria-label="Buscar" type="submit" id="BtnBuscar"><i class="bi-search"></i></button>
+            </form>
+            
+      </nav>
+
+    <main>
+        <section class="servicio" id="servicio" style="margin: 25px;"> 
+        <h2 class="subtitulo">Nuestros servicios:</h2> 
+        <div class="contenedor-servicio">
+            <img src="img/Book Lover_Isometric.svg" alt="">
+            <div class="booklover-service">
+                <div class="service">
+                    <n3 class="n-service"><span class="number" style="text-decoration: underline; text-shadow: 0.5px 0.5px black;">1.Servicio:</n3> </span>
+                    <br>Tratamos de brindar a nuestros clientes lo mejor de lo mejor,<br> acompañado de un buen servicio.</p>
+                </div>
+                <div class="service">
+                    <n3 class="n-service"><span class="number"  style="text-decoration: underline; text-shadow: 0.5px 0.5px black;">2.Delivery:</n3> </span>
+                    <br>Luego de realizar el pedido, nuestro encargado de ventas organiza el envio nacional o internacional <br> para que el cliente reciba su paquete lo más rápido posible.</p>
+                </div>
+                <div class="service">
+                    <n3 class="n-service"><span class="number"  style="text-decoration: underline; text-shadow: 0.5px 0.5px black;">3.Mercancía:</n3> </span>
+                    <br>No solo traemos los libros más recientes, también tenemos en el catalogo <br> de ventas los libros más pedidos, por otro lado los clientes puede intercambiar entre si o con la tienda sus libros.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Nosotros:</h2>
+            <section class="experts">
+                <div class="contenedor-experts"></div>
+                <img src="img/Book Lover_Monochromatic.svg" alt="">
+                <li>
+                <h5 class="experts">Misión: Tenemos como objetivo principal incentivar el hábito de la lectura <p> y ponerles a los lectores libros de calidad a buen precio, donde luego de usarlos <p> pueden intercambiarlos con otros usuarios y con la misma tienda.</h5>
+                </li>
+            </section>
+            <section class="experts">
+                <div class="contenedor-experts"></div>
+                <img src="img/Book Lover_Outline.svg" alt="">
+                <h5 class="experts">Visión: Nos gustaría brindar formas más fáciles y seguras <p> para obtener un libro, llevando a nuestros usuarios a posicionarlos entre las mejores librerías <p> gracias a calidad del servicio.</h5>
+            </section>
+            <section class="experts">
+                <div class="contenedor-experts"></div>
+                <img src="img/Reading a book_Flatline.svg" alt="">
+                <h5 class="experts">Valores: <p> -Transparencia <p> -Responsabilidad <p> -Honestidad <p> -Competitividad <p> -Prudentes 
+                    </h5>
+            </section>
+        </section>
+    </main>
+    
+    <form action="Entrada.php" method="POST">
+        <h2>Contacto:</h2>
+        <input type="text" name="nombre" placeholder="Nombre completo">
+        <input type="email" name="correo" placeholder="Correo Electrónico">
+        <input type="text" name="tel" placeholder="Teléfono">
+        <textarea name="mensaje" placeholder="Escriba aquí su mensaje"></textarea>
+        <button id="Boton">ENVIAR</button>
+    </form>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="./BootStrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

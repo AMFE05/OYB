@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../BootStrap/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Open your book/Ventas</title>
+</head>
+<body>
+   
+    
+    <div class="Carousel">
+        <nav class="navbar navbar-expand-lg navbar-light" style= "background-color:#FCB9AA">
+
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../Index.html" img>
+                 <span class="text-light fs-5 fw-bold"> 
+                   <img src="../Recursos/OYBlogo.png" id="Logo"alt="Logo OYB" width="45" height="45" class="d-inline-block"> Open Your Book </span> 
+              </a>
+        
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold rounded" aria-current="page" href="../Index.html">
+                      Inicio
+                    </a>
+                  </li>
+        
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold rounded" href="../Proyecto final/index.html" id="navbarDropdown" aria-expanded="false">Géneros </a>
+                  </li>
+        
+                       
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold rounded" href="../Sobre nosotros/index.html">Sobre Nosotros</a>
+                  </li>
+                </ul>
+        
+                <form class="d-flex">
+                  <input class="form-control btn-outline-light mr-3 me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                  <button class="btn" aria-label="Buscar" type="submit" id="BtnBuscar"><i class="bi-search"></i></button>
+                </form>
+                </div>
+                <a href="#"><i class="bi-cart fw-bold text-light fs-5" aria-label="Carrito" style="margin: 4px; text-decoration: none; padding: 6px; border-radius: 4px;" id="NavCarrito"></i></a>
+            </div>
+          </nav>
+
+        <h2>Romance</h2>
+        <div class="lista" id="lista">
+            <button class="Flechas atras" id="button-prev" data-button="atras" onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+            </button>
+            <div class="Formacion" id="Forma">
+                <div class="Desplazamiento">
+                    <div>
+                        <a href="./Informaciones/Romance/Orgullo y perjuicio.html">
+                            <h4><small>Orgullo y perjuicio</small>Jane Austen</h4>
+                            <picture>
+                                <img src="./imagenes/Romance/1.jpg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="Desplazamiento">
+                    <div>
+                        <a href="./Informaciones/Romance/Lo que el viento se llevo.html">
+                            <h4><small>Lo que el viento se llevo</small>Margaret Mitchell</h4>
+                            <picture>
+                                <img src="./imagenes/Romance/2.jpg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="Desplazamiento">
+                    <div>
+                        <a href="./Informaciones/Romance/Romeo y julieta.html">
+                            <h4><small>Romeo y Julieta</small>Wiliam Shakespeare</h4>
+                            <picture>
+                                <img src="./imagenes/Romance/3.jpg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="Desplazamiento">
+                    <div>
+                        <a href="./Informaciones/Romance/El club de incomprendidos.html">
+                            <h4><small>El club de incomprendidos</small>Blue Jeans</h4>
+                            <picture>
+                                <img src="./imagenes/Romance/4.jpg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="Desplazamiento">
+                    <div>
+                        <a href="Informaciones/Romance/Toda la verdad de mis mentiras.html">
+                            <h4><small>Toda la verdad de mis mentiras</small>Elisabet Benavent</h4>
+                            <picture>
+                                <img src="./imagenes/Romance/5.jpg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+               
+            </div>
+            <button class="Flechas adelante" id="button-next" data-button="Siguiente" onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+            </button>
+        </div>
+
+        <br>
+        
+        <div class="Carousel">
+            <h2>Aventura</h2>
+            <div class="lista" id="lista">
+                <button class="Flechas atras" id="button-prev" data-button="atras" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                </button>
+                <div class="Formacion" id="Forma">
+                    <div class="Desplazamiento">
+                        <div>
+                            <a href="./Informaciones/Aventura/Un capitan de quince años.html">
+                                <h4><small>Un capitán de quince años</small>Julio Verne</h4>
+                                <picture>
+                                    <img src="./imagenes/Aventura/1.jpg" alt="Image">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="Desplazamiento">
+                        <div>
+                            <a href="./Informaciones/Aventura/La isla del tesoro.html">
+                                <h4><small>La isla del tesoro</small>Robert Louis Stevenson</h4>
+                                <picture>
+                                    <img src="./imagenes/Aventura/2.jpg" alt="Image">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="Desplazamiento">
+                        <div>
+                            <a href="./Informaciones/Aventura/Las aventuras de Tom Sawyer.html">
+                                <h4><small>Las aventuras de Tom Sawyer</small>Mark Twain</h4>
+                                <picture>
+                                    <img src="./imagenes/Aventura/3.jpg" alt="Image">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="Desplazamiento">
+                        <div>
+                            <a href="./Informaciones/Aventura/El ultimo mohicano.html">
+                                <h4><small>El último mohicano</small>James Fenimore Cooper</h4>
+                                <picture>
+                                    <img src="./imagenes/Aventura/4.jpg" alt="Image">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="Desplazamiento">
+                        <div>
+                            <a href="./Informaciones/Aventura/Robinson Crusoe.html">
+                                <h4><small>Robinson Crusoe</small>Daniel Defoe</h4>
+                                <picture>
+                                    <img src="./imagenes/Aventura/5.jpg" alt="Image">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                  
+                </div>
+                <button class="Flechas adelante" id="button-next" data-button="Siguiente" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                </button>
+            </div>
+
+            <div class="Carousel">
+                <h2>Terror</h2>
+                <div class="lista" id="lista">
+                    <button class="Flechas atras" id="button-prev" data-button="atras" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                    </button>
+                    <div class="Formacion" id="Forma">
+                        <div class="Desplazamiento">
+                            <div>
+                                <a href="./Informaciones/Terror/Siempre hemos vivido en el castillo.html">
+                                    <h4><small>Siempre hemos vivido en el castillo</small>Shirley Jackson</h4>
+                                    <picture>
+                                        <img src="./imagenes/Terror/1.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="Desplazamiento">
+                            <div>
+                                <a href="./Informaciones/Terror/La tienda.html">
+                                    <h4><small>La tienda, de Stephen King</small></h4>
+                                    <picture>
+                                        <img src="./imagenes/Terror/2.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="Desplazamiento">
+                            <div>
+                                <a href="./Informaciones/Terror/Frankenstin.html">
+                                    <h4><small>Frankenstein</small>Mary Shelley</h4>
+                                    <picture>
+                                        <img src="./imagenes/Terror/3.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="Desplazamiento">
+                            <div>
+                                <a href="./Informaciones/Terror/Dracula.html">
+                                    <h4><small>Dracula</small>Bram Stoker</h4>
+                                    <picture>
+                                        <img src="./imagenes/Terror/4.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="Desplazamiento">
+                            <div>
+                                <a href="./Informaciones/Terror/Entrevista con el vampiro.html">
+                                    <h4><small>Entrevista con el vampiro</small>Anne Rice</h4>
+                                    <picture>
+                                        <img src="./imagenes/Terror/5.jpg" alt="Image">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <button class="Flechas adelante" id="button-next" data-button="Siguiente" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                    </button>
+                </div>
+               
+                        </div>
+                        <button class="Flechas adelante" id="button-next" data-button="Siguiente" onclick="app.processingButton(event)">
+                        </button>
+                    </div>
+    <script defer src="main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="./BootStrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
